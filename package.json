@@ -1,0 +1,32 @@
+{
+  "name": "@averix-enterprise/homepage",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "start": "NODE_ENV=production node .output/server/index.mjs",
+    "lint": "oxlint --deny-warnings -D correctness -D suspicious -D perf && eslint --max-warnings 0 .",
+    "lint:fix": "eslint . --fix",
+    "typecheck": "nuxt typecheck",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt": "3.14.1592"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^3.12.0",
+    "@nuxtjs/tailwindcss": "^6.12.2",
+    "@types/node": "^22.10.2",
+    "eslint": "^9.17.0",
+    "oxlint": "^0.15.3",
+    "typescript": "^5.6.3",
+    "vue-tsc": "^2.1.10"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "packageManager": "pnpm@9.11.0"
+}
