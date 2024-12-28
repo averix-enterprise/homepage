@@ -10,6 +10,11 @@ export default {
   theme: {
     extend: {
       colors: {
+        averix: {
+          green: '#50b08a',
+          purple: '#55248b',
+          text: '#162039',
+        },
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
@@ -43,6 +48,9 @@ export default {
           DEFAULT: 'hsl(var(--card))',
           foreground: 'hsl(var(--card-foreground))',
         },
+      },
+      fontFamily: {
+        AvantGarde: ['AvantGarde', 'sans-serif']
       },
       borderRadius: {
         xl: 'calc(var(--radius) + 4px)',
