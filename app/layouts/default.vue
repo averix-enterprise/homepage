@@ -1,5 +1,5 @@
 <template>
-  <div class="space-y-5">
+  <div class="space-y-2">
     <LayoutNavbar />
     <slot />
   </div>

@@ -5,6 +5,7 @@ export default defineNuxtConfig({
   css: ['./app/assets/fonts/AvantGarde.css'],
   modules: [
     '@nuxtjs/tailwindcss',
+    '@vueuse/nuxt',
     '@vueuse/motion/nuxt',
     '@nuxt/icon'
   ],
