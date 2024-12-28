@@ -4,8 +4,14 @@ export default defineNuxtConfig({
   future: { compatibilityVersion: 4 },
   modules: [
     '@nuxtjs/tailwindcss',
-    '@vueuse/motion/nuxt'
+    '@vueuse/motion/nuxt',
+    '@nuxt/icon'
   ],
+  icon: {
+    customCollections: [
+      { prefix: 'local', dir: './app/assets/icons' },
+    ],
+  },
   typescript: {
     shim: false
   }
