@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'AvantGarde';
+    src: url('~/app/assets/fonts/AvantGarde.ttf') format('truetype');
+    text-rendering: optimizeLegibility;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvantGarde';
+    src: url('~/app/assets/fonts/AvantGarde-700.ttf') format('truetype');
+    text-rendering: optimizeLegibility;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvantGarde';
+    src: url('~/app/assets/fonts/AvantGarde-700-italic.ttf') format('truetype');
+    text-rendering: optimizeLegibility;
+    font-weight: 700;
+    font-style: italic;
+}
